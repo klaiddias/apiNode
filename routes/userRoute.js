@@ -58,5 +58,9 @@ const userRoute = (app) => {
             res.end(JSON.stringify(req.body, null, 2))
         })
 }
+const sum = (a, b) => a+b;
 
-module.exports = userRoute
+module.exports = {
+    userRoute,
+    sum
+}
