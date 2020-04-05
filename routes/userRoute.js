@@ -59,12 +59,4 @@ const userRoute = (app) => {
         })
 }
 
-const sum = (a, b) => {
-    return a + b;
-}
-
-module.exports = {
-    userRoute,
-    getUsers,
-    sum
-}
+module.exports = userRoute
