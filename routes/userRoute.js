@@ -59,4 +59,12 @@ const userRoute = (app) => {
         })
 }
 
-module.exports = userRoute
+const sum = (a, b) => {
+    return a + b;
+}
+
+module.exports = {
+    userRoute,
+    getUsers,
+    sum
+}
